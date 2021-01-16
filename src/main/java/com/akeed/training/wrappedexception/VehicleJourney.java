@@ -1,10 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package com.akeed.training.wrappedexception;
 
+package com.akeed.training.wrappedexception;
 import com.akeed.training.myexceptions.IgnitionBlockedException;
 import com.akeed.training.myexceptions.VehicleDoorOpenException;
 
@@ -22,13 +17,14 @@ public class VehicleJourney {
             startCar();
 
         } catch (VehicleDoorOpenException ex) {
+            //this is an unchecked exception
             throw new IgnitionBlockedException("Cannot start the car!", ex);
         }
-
     }
 
     private void startCar() throws VehicleDoorOpenException {
         if (this.doorOpen) {
+            //this is a checked exception
             throw new VehicleDoorOpenException("Vehicle door is open!");
         }
     }

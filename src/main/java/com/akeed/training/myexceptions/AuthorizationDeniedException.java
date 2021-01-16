@@ -7,11 +7,10 @@
 package com.akeed.training.myexceptions;
 
 
-public class IgnitionBlockedException extends RuntimeException{
+public class AuthorizationDeniedException extends Exception {
     
-    public IgnitionBlockedException(String message, Exception ex ){
-        super(message);
-        ex.printStackTrace();
+    public AuthorizationDeniedException (String errorMessage, Exception ex){
+        super(errorMessage, ex);
     }
 
 }

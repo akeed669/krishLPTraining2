@@ -7,10 +7,10 @@
 package com.akeed.training.myexceptions;
 
 
-public class ATMBalanceInsufficientException extends Exception {
+public class PinAuthenticationFailedException extends Exception {
     
-    public ATMBalanceInsufficientException (String errorMessage){
-        super(errorMessage);
+    public PinAuthenticationFailedException (String errorMessage, Exception ex){
+        super(errorMessage, ex);
     }
 
 }
