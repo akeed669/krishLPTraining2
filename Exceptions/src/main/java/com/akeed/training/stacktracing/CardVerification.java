@@ -10,13 +10,12 @@ import com.akeed.training.myexceptions.IncorrectPinException;
 import com.akeed.training.myexceptions.PinAuthenticationFailedException;
 
 
-
 public class CardVerification {
 
     public void verifyCard() throws PinAuthenticationFailedException {
         UserAuthentication userAuthentication = new UserAuthentication();
         try {
-            userAuthentication.checkPinNumber();
+            userAuthentication.checkPinNumber(12345);
         } catch (IncorrectPinException ex) {
             throw new PinAuthenticationFailedException("Pin verification has failed!", ex);
         }

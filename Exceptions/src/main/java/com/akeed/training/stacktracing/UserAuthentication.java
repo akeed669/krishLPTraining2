@@ -7,13 +7,15 @@ package com.akeed.training.stacktracing;
 
 import com.akeed.training.myexceptions.IncorrectPinException;
 
-public class UserAuthentication {
+public class UserAuthentication {    
 
-    //private int myPin = 12345;
+    public void checkPinNumber(int userPIN) throws IncorrectPinException {
+        
+        if(userPIN!=00000){
+           throw new IncorrectPinException("Pin number is wrong!"); 
+        }
 
-    public void checkPinNumber() throws IncorrectPinException {
-
-        throw new IncorrectPinException("Pin number is wrong!");
+        
 
     }
 

@@ -22,7 +22,7 @@ public class Withdrawal {
     public void makeWithdrawal()throws WithdrawalFailedException{
         
         WithdrawalAuthorization withdrawalAuthorization = new WithdrawalAuthorization();
-        //CardVerification cardVerification = new CardVerification();
+        
          try { 
              withdrawalAuthorization.authorizeWithdrawal();
              
