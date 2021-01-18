@@ -12,8 +12,9 @@ public class Withdrawal {
             withdrawal.makeWithdrawal();
                     
         }catch(WithdrawalFailedException exception){ 
-		 //System.out.println(exception.getMessage());	           
-            exception.printStackTrace();
+            //screenshot shows output from printStackTrace()
+            //exception.printStackTrace();
+            System.out.println(exception.getMessage());
         }   
             
     }
