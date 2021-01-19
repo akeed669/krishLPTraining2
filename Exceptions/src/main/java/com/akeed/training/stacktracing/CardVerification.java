@@ -6,8 +6,8 @@
 
 package com.akeed.training.stacktracing;
 
-import com.akeed.training.myexceptions.IncorrectPinException;
-import com.akeed.training.myexceptions.PinAuthenticationFailedException;
+import com.akeed.training.customexceptions.IncorrectPinException;
+import com.akeed.training.customexceptions.PinAuthenticationFailedException;
 
 
 public class CardVerification {

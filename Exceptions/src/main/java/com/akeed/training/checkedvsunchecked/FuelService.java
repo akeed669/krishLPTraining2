@@ -1,7 +1,7 @@
 package com.akeed.training.checkedvsunchecked;
 
-import com.akeed.training.myexceptions.FuelPumpBlockedException;
-import com.akeed.training.myexceptions.InsufficientFuelException;
+import com.akeed.training.customexceptions.FuelPumpBlockedException;
+import com.akeed.training.customexceptions.InsufficientFuelException;
 import java.util.Scanner;
 
 

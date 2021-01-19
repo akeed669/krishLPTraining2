@@ -1,7 +1,7 @@
 
 package com.akeed.training.wrappedexception;
-import com.akeed.training.myexceptions.IgnitionBlockedException;
-import com.akeed.training.myexceptions.VehicleDoorOpenException;
+import com.akeed.training.customexceptions.IgnitionBlockedException;
+import com.akeed.training.customexceptions.VehicleDoorOpenException;
 
 public class VehicleJourney {
 

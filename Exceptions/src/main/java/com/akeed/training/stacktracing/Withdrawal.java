@@ -1,7 +1,7 @@
 package com.akeed.training.stacktracing;
 
-import com.akeed.training.myexceptions.AuthorizationDeniedException;
-import com.akeed.training.myexceptions.WithdrawalFailedException;
+import com.akeed.training.customexceptions.AuthorizationDeniedException;
+import com.akeed.training.customexceptions.WithdrawalFailedException;
 
 public class Withdrawal {
     

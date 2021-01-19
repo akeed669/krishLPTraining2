@@ -5,7 +5,7 @@
  */
 package com.akeed.training.stacktracing;
 
-import com.akeed.training.myexceptions.IncorrectPinException;
+import com.akeed.training.customexceptions.IncorrectPinException;
 
 public class UserAuthentication {    
 

@@ -6,8 +6,8 @@
 
 package com.akeed.training.stacktracing;
 
-import com.akeed.training.myexceptions.AuthorizationDeniedException;
-import com.akeed.training.myexceptions.PinAuthenticationFailedException;
+import com.akeed.training.customexceptions.AuthorizationDeniedException;
+import com.akeed.training.customexceptions.PinAuthenticationFailedException;
 
 public class WithdrawalAuthorization {
     
